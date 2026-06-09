@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+  font-family: "Material Symbols Outlined";
+  font-size: 24px;
+  line-height: 1;
+  display: inline-block;
+  user-select: none;
+}
+
+.bilingual-bridge { position: relative; padding-left: 1.5rem; }
+.bilingual-bridge::before { content: ""; position: absolute; left: 0; top: 0.5rem; bottom: 0.5rem; width: 1px; background-color: #585062; }
+.bridge-line-left { border-left: 1px solid #475f87; padding-left: 24px; }
+
+html { scroll-behavior: smooth; }
+body { background-color: #f8f9fa; color: #191c1d; overflow-x: hidden; font-family: "Inter", sans-serif; }
